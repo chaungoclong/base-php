@@ -1,0 +1,23 @@
+{
+  "name": "longcn/base-php",
+  "description": "PHP Codebase Developed Entirely in Pure PHP",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "BasePHP\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Chau Ngoc Long"
+    }
+  ],
+  "require-dev": {
+    "pestphp/pest": "^2.24"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
