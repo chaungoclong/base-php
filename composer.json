@@ -19,5 +19,9 @@
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "php": "^8.2"
   }
 }
